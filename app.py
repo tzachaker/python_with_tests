@@ -1,5 +1,5 @@
 import requests
-//hfgfhj
+
 def fetch_website(url):
     response = requests.get(url)
     return response.status_code
